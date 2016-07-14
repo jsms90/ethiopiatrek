@@ -496,6 +496,47 @@
      text-decoration: none;
      font-style: italic
  }
+ /*------------------------------ LINK CARDS --------------------------*/
+
+ .link-card {
+     display: flex;
+     margin: 20px 0;
+ }
+ 
+ .link-card .link-card-image-container {
+     flex: 1;
+ }
+
+ .link-card .link-card-text-container {
+     flex: 2;
+     position: relative;
+ }
+
+ .link-card .link-card-image-container img {
+     width: 100%;
+ }
+ .link-card .link-card-text-container h1 {
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0!important;
+    padding: 0!important;
+    text-align: center;
+ }
+
+ .link-card-ambaras .link-card-text-container {
+     background: yellow;
+ }
+
+ .link-card-kindu .link-card-text-container {
+     background: green;
+ }
+
+.link-card-kindu .link-card-text-container h1 {
+     color: white!important;
+ }
+
  /*------------------------------ FOOTER ------------------------------*/
  
  #footer {
