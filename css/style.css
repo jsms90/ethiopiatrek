@@ -39,45 +39,41 @@
  #navigation {
      clear: both;
      height: 50px;
-     width: 860px;
      margin: 0 auto;
      padding: 1px;
  }
  
  #navigation ul {
-     background-color: #ac9e94;
-     display: inline-block;
-     width: 860px;
+     text-align: center;
      list-style: none;
      margin: 0;
      padding: 0;
  }
  
  #navigation li {
-     background-color: #916f32;
-     float: left;
+     display: inline-block;
      background-position: 0 -118px;
      background-repeat: no-repeat;
      height: 49px;
-     width: 121px;
-     margin-left: 1px;
-     padding-left: 1px;
      text-align: center;
-     border-radius: 3px;
+     white-space: nowrap;
  }
  
  #navigation li:first-child {
      margin-left: 0;
-     padding-left: 0;
  }
  
  #navigation li a {
+     background-color: #916f32;
      color: #fff;
      display: block;
      font: bold 14px/48px Arial, Helvetica, sans-serif;
      height: 49px;
      text-decoration: none;
      text-transform: uppercase;
+     margin: 0 1px;
+     padding: 0 17px;
+     border-radius: 3px;
  }
  
  #navigation li a:hover {
@@ -86,7 +82,7 @@
      color: #6d6157;
  }
  
- #navigation li.selected a {
+ #navigation li a.selected {
      background-color: #f5d49d;
      background-position: 0 0;
      color: #916f32;
@@ -516,7 +512,7 @@
      width: 100%;
  }
  .link-card .link-card-text-container h1 {
-     position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
