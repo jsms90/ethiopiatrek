@@ -72,7 +72,7 @@
      text-decoration: none;
      text-transform: uppercase;
      margin: 0 1px;
-     padding: 0 17px;
+     padding: 0 12px;
      border-radius: 3px;
  }
  
@@ -547,7 +547,7 @@
  #footer > div {
      background-color: #ac9e94;
      height: 48px;
-     width: 822px;
+     width: 912px;
      border-bottom: 1px solid #72675f;
      border-top: 1px solid #cdbeb2;
      margin: 0 auto;

@@ -1,0 +1,19 @@
+{
+  "name": "ethiopiatrek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsms90/ethiopiatrek.git"
+  },
+  "author": "Jen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsms90/ethiopiatrek/issues"
+  },
+  "homepage": "https://github.com/jsms90/ethiopiatrek#readme"
+}
