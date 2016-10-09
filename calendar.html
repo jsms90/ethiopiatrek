@@ -6,6 +6,21 @@
     <meta charset="UTF-8">
     <title>Ethiopia Trek</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel='stylesheet' href='node_modules/fullcalendar/dist/fullcalendar.css' />
+    <script src='node_modules/jquery/dist/jquery.min.js'></script>
+    <script src='node_modules/moment/min//moment.min.js'></script>
+    <script src='node_modules/fullcalendar/dist/fullcalendar.js'></script>
+    <script type='text/javascript'>
+    $(document).ready(function() {
+
+        $('#calendar').fullCalendar({
+        })
+
+    });
+    </script>
+
+
+
 </head>
 <body>
     <div id="background">
@@ -44,6 +59,11 @@
                     </ul>
                 </div>
             </div>
+            
+            <div id='calendar'>
+                
+            </div>
+            
             <div id="footer">
             <div>
                 <ul class="navigation">
