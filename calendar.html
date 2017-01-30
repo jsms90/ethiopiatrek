@@ -10,17 +10,6 @@
     <script src='node_modules/jquery/dist/jquery.min.js'></script>
     <script src='node_modules/moment/min//moment.min.js'></script>
     <script src='node_modules/fullcalendar/dist/fullcalendar.js'></script>
-    <script type='text/javascript'>
-    $(document).ready(function() {
-
-        $('#calendar').fullCalendar({
-        })
-
-    });
-    </script>
-
-
-
 </head>
 <body>
     <div id="background">
@@ -59,11 +48,23 @@
                     </ul>
                 </div>
             </div>
-            
-            <div id='calendar'>
-                
+
+            <div class="forum-container">
+              <iframe id="forum_embed"
+                src="javascript:void(0)"
+                scrolling="no"
+                frameborder="0"
+                width="900"
+                height="700">
+              </iframe>
+              <script type="text/javascript">
+                document.getElementById('forum_embed').src =
+                   'https://groups.google.com/forum/embed/?place=forum/ethiopia-trek'
+                   + '&showsearch=true&showpopout=true&showtabs=false'
+                   + '&parenturl=' + encodeURIComponent(window.location.href);
+              </script>
             </div>
-            
+
             <div id="footer">
             <div>
                 <ul class="navigation">
